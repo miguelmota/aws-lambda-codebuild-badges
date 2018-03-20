@@ -1,0 +1,7 @@
+# CodeBuild badges
+
+>
+
+# License
+
+MIT
