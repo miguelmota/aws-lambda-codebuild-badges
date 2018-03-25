@@ -18,7 +18,9 @@ exports.handler = (event, context, callback) => {
       Key: key,
       Body: fs.readFileSync(image),
       ACL: 'public-read',
-      ContentType: 'image/svg+xml'
+      ContentType: 'image/svg+xml',
+      CacheControl: 'max-age=0',
+      Expires: new Date()
     }
 
     s3.putObject(params, (err, data) => {
