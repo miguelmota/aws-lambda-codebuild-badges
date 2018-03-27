@@ -1,4 +1,4 @@
-# CodeBuild badges
+# CodeBuild Badges
 
 > A lambda function that gets triggered on CloudWatch events via SNS, which updates the badge image in a S3 bucket with the CodeBuild status of a project.
 
